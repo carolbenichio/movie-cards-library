@@ -1,22 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
-  background-color: whitesmoke;
+  background-color: rgb(15, 15, 15);
   box-sizing: border-box;
   font-size: 16px;
 }
 
 .movie-card-header {
+  font-family: 'Staatliches';
   align-items: center;
-  background-color: #343a40;
+  background-color: #000000;
   display: flex;
-  height: 100px;
-  justify-content: center;
+  height: 120px;
+  justify-content: flex-start;
 }
 
 .page-title {
+  letter-spacing: 3px;
   color: #f8f9fa;
-  font-size: 28px;
+  font-size: 50px;
   font-weight: 500;
   text-align: center;
+  color: rgb(209, 39, 39);
+  padding: 30px;
 }
 
 .movie-list {
@@ -26,17 +33,21 @@ body {
 }
 
 .movie-card {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 18px;
   display: flex;
   flex-direction: column;
   height: 450px;
-  margin: 5px;
+  margin: 15px;
   overflow: hidden;
   width: 300px;
 }
 
+.movie-card:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
 
 .movie-card-image {
   width: 100%;
@@ -44,11 +55,13 @@ body {
 
 .movie-card-body {
   flex: 1 1 auto;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
+  background-color: white;
 }
 
 .movie-card-title {
-  font-size: 24px;
+  text-transform: uppercase;
+  font-size: 26px;
   font-weight: 500;
   margin: 0 0 12px;
 }
@@ -61,17 +74,20 @@ body {
 }
 
 .movie-card-storyline {
-  font-size: 14px;
+  font-size: 15px;
   text-align: justify;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: -0.4px;
 }
 
 .rating {
-  background-color: #007bff;
-  border-radius: 25px;
-  color: white;
+  background-color: #fffc5c;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: 700;
-  padding: 3px 9px;
+  padding: 5px 9px;
+  margin: 10px;
 }
 
 .movie-card-rating {
@@ -79,5 +95,12 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
   justify-content: flex-end;
-  padding: 12px 20px;
+  /* padding: 12px 20px; */
+  align-items: center;
+}
+
+.nota {
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+  font-weight: 600;
 }
