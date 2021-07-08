@@ -12,10 +12,10 @@ In this project, i was able to:
   <li>Create <b>React Components</b>;</li>
   <li>Use props propertly;</li>
   <li>Create multiple components dynamically;</li>
-  <li>Use <b>PropTypes<b/> to check the type of prop the components is using;</li>
-  <li>Use <b>PropTypes<b/> to guaratee the presence of mandatory props;</li>
-  <li>Use <b>PropTypes<b/> to check if the prop is an object in an especific format;</li>
-  <li>Use <b>PropTypes<b/> to guarantee that the prop is an Array with elements of an especific type!</li>
+  <li>Use <b>PropTypes</b> to check the type of prop the components is using;</li>
+  <li>Use <b>PropTypes</b> to guaratee the presence of mandatory props;</li>
+  <li>Use <b>PropTypes</b> to check if the prop is an object in an especific format;</li>
+  <li>Use <b>PropTypes</b> to guarantee that the prop is an Array with elements of an especific type!</li>
 </ul>
 
 Let me know what you think about it!
