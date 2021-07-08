@@ -5,7 +5,7 @@ In this project, i was able to:
 
 <ul> 
   <li>Know the best way to install a package manager;</li>
-  <li>Inicialize a <b>React</b> project</li>
+  <li>Inicialize a <b>React</b> project;</li>
   <li>Use JSX in <b>React</b>;</li>
   <li>Use <b>ReactDOM.render</b> to render elements on a Web Page;</li>
   <li>Use import to use external code;</li>
